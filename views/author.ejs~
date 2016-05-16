@@ -6,15 +6,10 @@
     <link rel='stylesheet' href='/stylessheets/style.css'/> 
 </head>
 <body>
-    <h2>Quiz: el juego de las preguntas</h2>
-    
-    <p> La respuesta <strong> <%=answer %> </strong>
-        es <%= result %>. </p>
-    <p> <a href="/question?answer=<%= answer %>"> 
-             Inténtelo otra vez </a></p>
-    <footer> 
+    <h1>Autor del Quiz</h1>
       <p>José Ángel Corral Benito</p>
       <p>https://github.com/jacorralupm/proyecto</p>
-    </footer>  
+    <p> <a href="/index"> 
+             Volver a la página principal </a></p>
   </body>
 </html>

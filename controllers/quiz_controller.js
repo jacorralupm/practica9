@@ -13,3 +13,8 @@ exports.check = function(req, res, next) {
                                  answer: answer});
 };
 	
+// GET /author
+exports.author = function(req, res, next) {
+   var answer = req.query.answer || '';
+   res.render('author');
+};

@@ -8,9 +8,13 @@
 <body>
     <h2>Quiz: el juego de las preguntas</h2>
     <form method="get" action="/check">
-      Pregunta: <%= question %> <p>
+      <p> Pregunta: <%= question %> </p>
       <input type="text" name="answer" value="<%= answer%>" placeholder="Responda aquí"/>
       <input type="submit" value="Comprobar">
     </form>
+    <footer style="text-align: center;"> 
+      <p>José Ángel Corral Benito</p>
+      <p>https://github.com/jacorralupm/proyecto</p>
+    </footer>  
   </body>
 </html>
