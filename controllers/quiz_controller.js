@@ -12,4 +12,11 @@ exports.check = function(req, res, next) {
    res.render('quizzes/result', {result: result,
                                  answer: answer});
 };
+
+// GET /author
+exports.author = function(req, res, next) {
+   var answer = req.query.answer || '';
+   res.render('author');
+};
+
 	
