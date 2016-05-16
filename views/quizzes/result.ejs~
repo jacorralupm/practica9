@@ -12,7 +12,7 @@
         es <%= result %>. </p>
     <p> <a href="/question?answer=<%= answer %>"> 
              Inténtelo otra vez </a></p>
-    <footer style="text-align: center;"> 
+    <footer> 
       <p>José Ángel Corral Benito</p>
       <p>https://github.com/jacorralupm/proyecto</p>
     </footer>  

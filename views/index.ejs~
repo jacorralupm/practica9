@@ -10,8 +10,15 @@
     <h1>Bienvenido a <%= title %></h1>
     <p>El portal donde podrá crear sus propios juegos!</p>
     <p><a href="/question">Comience a jugar</a></p>
+<<<<<<< HEAD
     <footer style="text-align: center;"> 
       <p>José Ángel Corral Benito</p>
+=======
+    <footer> 
+      <p>José Ángel Corral Benito</p>
+      <p> <a href="/author"> 
+             Página del autor </a></p>
+>>>>>>> creditos
       <p>https://github.com/jacorralupm/proyecto</p>
     </footer>   
   </body>
